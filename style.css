@@ -1,0 +1,40 @@
+
+h1{
+    color: white;    
+    text-align: center;
+    padding-top:25% ;
+   
+}
+.navigation {
+    position: fixed;
+    top: 35px;
+    right: 25px;
+    color: white;
+    list-style: none;
+    padding: 20px;
+    
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 60px;
+    
+}
+
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
