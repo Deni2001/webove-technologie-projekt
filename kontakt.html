@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BigThings</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body>
+    <div class="header">
+            <div class="NavBar">
+                <a href="index.html"><img src="BTlogo.png" id="logo" alt="Logo"></a>
+                <ul class="navigation">
+                    <li><a href="onas.html">O nás</a></li>
+                    <li><a href="galeria.html">Galéria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+        <img src="kontaktimage.jpg" alt="Kontak" id="kontaktimage">
+    </div>
+<form action="/submit" method="post">
+    <div>
+        <label for="meno">Meno:</label>
+        <input type="text" id="meno" name="meno" required>
+    </div>
+    <div>
+        <label for="priezvisko">Priezvisko:</label>
+        <input type="text" id="priezvisko" name="priezvisko" required>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <label for="hodnotenie">Hodnotenie:</label>
+        <select id="hodnotenie" name="hodnotenie">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div>
+        <label for="sprava">Sprava:</label><br>
+        <textarea id="sprava" name="sprava" rows="4" cols="50"></textarea>
+    </div>
+    <div>
+        <label for="suhlas">Suhlasim s podmienkami:</label>
+        <input type="checkbox" id="suhlas" name="suhlas" required>
+    </div>
+    <div>
+        <button type="submit">Odoslat</button>
+    </div>
+</form>
+
+</body>
+
+</html>
