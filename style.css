@@ -1,8 +1,9 @@
 
 h1{
+    position: relative;
     color: white;    
     text-align: center;
-    padding-top:25% ;
+    padding-top:20% ;
    
 }
 .navigation {
@@ -14,17 +15,18 @@ h1{
     padding: 20px;
     
 }
-
 .navigation li {
     display: inline-block;
     margin-right: 60px;
     
 }
-
-
 .navigation a {
     text-decoration: none;
-    color: inherit;
+    color: inherit;    
+}
+.navigation a:hover {
+    text-decoration: none;
+    color: rgb(176, 176, 176);
 }
 
 #myVideo {
@@ -60,3 +62,72 @@ h1{
     bottom: 0;
     z-index: -1;
 }
+
+#logo{
+    width: 100px;
+    height: auto;
+    padding-left: 45px;
+    padding-top: 25px;
+}
+
+#kontaktimage{
+     width: 100vw;
+        height: 30vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+}
+
+form{
+    padding-top: 500px;
+    padding-left: 40%;   
+    padding-right: 220px;  
+}
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+
+}
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+     margin-top: 6px;  
+    margin-bottom: 16px;
+    resize: vertical
+}
+        
+
+
+button {
+    background-color: #000000;
+    margin-top: 10px;  
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4d504f;
+    color: rgb(255, 255, 255);     
+}
+
+
