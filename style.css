@@ -1,13 +1,16 @@
 
+body{
+    background-attachment: fixed;
+   
+}
 h1{
     position: relative;
     color: white;    
     text-align: center;
-    padding-top:20% ;
-   
+    padding-top:20% ;   
 }
 .navigation {
-    position: fixed;
+    position: absolute;
     top: 35px;
     right: 25px;
     color: white;
@@ -44,7 +47,7 @@ h1{
     width: 100vw;
     height: 30vh;
     object-fit: cover;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -74,7 +77,7 @@ h1{
      width: 100vw;
         height: 30vh;
         object-fit: cover;
-        position: fixed;
+        position: absolute;
         left: 0;
         right: 0;
         top: 0;
@@ -85,7 +88,7 @@ h1{
     width: 100vw;
     height: 30vh;
     object-fit: cover;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -93,8 +96,35 @@ h1{
     z-index: -1;
 }
 
+#textonas {    
+    text-align: center;
+    padding-top: 140px; 
+    font-size: 25px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+#zoznam{
+    text-align: left;
+    padding-left: 20%;
+    
+}
+#nametitle{
+    color: aliceblue;
+    font-size: 3em;
+    position: absolute;
+    top: 5%;  
+    left: 47%;   
+}
+#kontaktinfromacie{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+   
+}
+
 form{
-    padding-top: 500px;
+    padding-top: 15%;
     padding-left: 40%;   
     padding-right: 220px;  
 }
@@ -124,8 +154,6 @@ textarea {
     resize: vertical
 }
         
-
-
 button {
     background-color: #000000;
     margin-top: 10px;  
@@ -141,4 +169,36 @@ button:hover {
     color: rgb(255, 255, 255);     
 }
 
+ .teamsection {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f2f2f2;
+ }
+    
+
+ .teammember {
+     display: inline-block;
+     margin: 40px;
+     padding: 40px;
+     background-color: #fff;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    }
+ 
+
+ .teammember img {
+     border-radius: 50%;
+     max-width: 150px;
+     height: auto;
+    
+ }
+
+ .teammember h3 {
+     margin-top: 10px;
+    
+ }
 
