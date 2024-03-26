@@ -3,87 +3,118 @@
 
 <head>
     <title>BigThings</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    </link>
 </head>
 
-<body>   
-    <div   class="header">
-        <div class="NavBar">
-            <a href="index.html"><img src="BTlogo.png" id="logo" alt="Logo"></a>
-            <ul class="navigation">
-                <li><a href="onas.html">O nás</a></li>
-                <li><a href="sluzby.html">Služby</a></li>
-                <li><a href="galeria.html">Galéria</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
-            </ul>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 header">
+                <div class="NavBar">
+                    <a href="index.html"><img src="BTlogo.png" id="logo" alt="Logo"></a>
+                    <ul class="navigation">
+                        <li>
+                            <a href="onas.html">O nás</a>
+                        </li>
+                        <li>
+                            <a href="sluzby.html">Služby</a>
+                        </li>
+                        <li>
+                            <a href="galeria.html">Galéria</a>
+                        </li>
+                        <li>
+                            <a href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        <div id="onasvideo" class="row">
+            <div class="col-md-12">
+                <video autoplay="" muted="" loop="" id="onasvideo" class="w-100">
+                    <source src="onasles.mp4" type="video/mp4">
+                </video>
+                <p id="nametitle" class="text-center mt-3">O nás</p>
+            </div>
         </div>
-        <video autoplay muted loop id="onasvideo">            
-            <source src="onasles.mp4" type="video/mp4">
-        </video>
-        <p id="nametitle">O nas</p>
     </div>
-    
-    <div id="textonas">           
-        <h2>
-        BigThings, s.r.o je spoločnosť zameraná na poradenstvo v obasti grantov, riadenia a implementácie projektov.
-        </h2>
-        <p>V spoločnosti BigThings, s.r.o. sme zameraní na poskytovanie komplexného poradenstva v oblasti získavania grantov a
-        riadenia projektov.<br> Naša špecializácia zahŕňa poradenstvo pri získavaní grantov a dotácií z prostriedkov štrukturálnych
-        fondov Európskej únie,<br> ako aj pri získavaní štátnej pomoci, európskych a medzinárodných grantových schém a dotácií od
-        ministerstiev.<br>
-        </p>
-        <b>Grantove poradenctvo</b>         
-    
-    <ul id="zoznam">
-    <li>Štátnej pomoci </li>
-    <li>Európskych a medzinárodných grantových schém</li>
-    <li>Dotácií od ministerstiev</li>
-    </ul>
-    <b>Finacovanie projektov</b>
-    <p>Vpracujeme Vám presnú analýzu zámerov žiadateľa o grant. Informujeme Vás o aktuálnych výzvach na predkladanie projektov
-    a výber ideálneho zdroja financovania.</p>
-    <b>Žiadosť o grant a dokumentácia</b>
-    <p>Služby súvisiace s prípravou žiadostí o grant a dokumentácie:</p>
-    <ul id="zoznam">
-        <li>vypracovanie sprievodnej dokumentácie projekru</li>
-        <li>príprava projektového zámeru</li>
-        <li>rozpočet projektu</li>
-    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="textonas" class="mt-5">
+                    <h2>BigThings, s.r.o je spoločnosť zameraná na poradenstvo v obasti grantov, riadenia a
+                        implementácie projektov.</h2>
+                    <p>V spoločnosti BigThings, s.r.o. sme zameraní na poskytovanie komplexného poradenstva v oblasti
+                        získavania grantov a riadenia projektov.<br>
+                        Naša špecializácia zahŕňa poradenstvo pri získavaní grantov a dotácií z prostriedkov
+                        štrukturálnych fondov Európskej únie,<br>
+                        ako aj pri získavaní štátnej pomoci, európskych a medzinárodných grantových schém a dotácií od
+                        ministerstiev.<br></p><b>Grantove poradenctvo</b>
+                    <ul id="zoznam" class="mt-3">
+                        <li>Štátnej pomoci</li>
+                        <li>Európskych a medzinárodných grantových schém</li>
+                        <li>Dotácií od ministerstiev</li>
+                    </ul><b>Finacovanie projektov</b>
+                    <p>Vpracujeme Vám presnú analýzu zámerov žiadateľa o grant. Informujeme Vás o aktuálnych výzvach na
+                        predkladanie projektov a výber ideálneho zdroja financovania.</p><b>Žiadosť o grant a
+                        dokumentácia</b>
+                    <p>Služby súvisiace s prípravou žiadostí o grant a dokumentácie:</p>
+                    <ul id="zoznam" class="mt-3">
+                        <li>vypracovanie sprievodnej dokumentácie projekru</li>
+                        <li>príprava projektového zámeru</li>
+                        <li>rozpočet projektu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <section class="teamsection">
-        <h2>Náš tím</h2>
-        
-        <div class="teammember">
-            <img src="member1.png" alt="Člen týmu 1">
-            <h3>Jan Novák</h3>
-            <p>Programátor</p>
+    <div class="containerteam">
+        <div class="row">
+            <div class="col-md-12">
+                <section class="teamsection mt-5">
+                    <h2 class="text-center">Náš tím</h2>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="teammember">
+                                <img src="member1.png" alt="Člen týmu 1" class="img-fluid">
+                                <h3>Jan Novák</h3>
+                                <p>Programátor</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="teammember">
+                                <img src="member2.png" alt="Člen týmu 2" class="img-fluid">
+                                <h3>Eva Svobodová</h3>
+                                <p>Designérka</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="teammember">
+                                <img src="member3.png" alt="Člen týmu 3" class="img-fluid">
+                                <h3>Petr Dvorák</h3>
+                                <p>Marketingový specialista</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="teammember">
+                                <img src="member4.png" alt="Člen týmu 3" class="img-fluid">
+                                <h3>Ján Nováčik</h3>
+                                <p>SEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12 text-center">
+                            <a href="kontakt.html"><button id="kontaktbutton">Kontaktuj nás</button></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
-    
-        <div class="teammember">
-            <img src="member2.png" alt="Člen týmu 2">
-            <h3>Eva Svobodová</h3>
-            <p>Designérka</p>
-        </div>
-    
-        <div class="teammember">
-            <img src="member3.png" alt="Člen týmu 3">
-            <h3>Petr Dvorák</h3>
-            <p>Marketingový specialista</p>
-        </div>
-
-        <div class="teammember">
-            <img src="member4.png" alt="Člen týmu 3">
-            <h3>Ján Nováčik</h3>
-            <p>SEO</p>
-        </div>
-        <a href="kontakt.html">
-            <button id="kontaktbutton">Kontakuj nás</button>
-        </a>
-    </section>
-
-
+    </div>
 </body>
 
 </html>
