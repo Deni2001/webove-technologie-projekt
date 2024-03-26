@@ -1,27 +1,45 @@
 <!DOCTYPE html>
 <html>
+<body class="main">
+
     <head>
         <title>BigThings</title>
-        <link rel="stylesheet" href="style.css"></link>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body class="main">   
-        <video autoplay muted loop id="myVideo">
-        <source src="videomain.mp4" type="video/mp4">
-        </video>
-        <picture>
-            <img a>
-        </picture>
-        <div class="Header">            
-            <div class="NavBar">  
-                <a href="index.html"><img src="BTlogo.png" id="logo" alt="Logo"></a>            
-                <ul class="navigation">
-                    <li><a href="onas.html">O nás</a></li>
-                    <li><a href="sluzby.html">Služby</a></li>
-                    <li><a href="galeria.html">Galéria</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>                    
-                </ul>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 header">
+                <div class="NavBar">
+                    <a href="index.html"><img src="BTlogo.png" id="logo" alt="Logo"></a>
+                    <ul class="navigation">
+                        <li>
+                            <a href="onas.html">O nás</a>
+                        </li>
+                        <li>
+                            <a href="sluzby.html">Služby</a>
+                        </li>
+                        <li>
+                            <a href="galeria.html">Galéria</a>
+                        </li>
+                        <li>
+                            <a href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <h1>Big thinhs do not happen, they have to be made</h1>    
-    </body>
+        <div id="myVideo" class="row">
+            <div class="col-md-12">
+                <video autoplay="" muted="" loop="" id="myVideo" class="w-100">
+                    <source src="videomain.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <h1>Big thinhs do not happen, they have to be made</h1>
+</body>
+
 </html>
