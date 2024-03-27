@@ -27,10 +27,9 @@ document.addEventListener('DOMContentLoaded', generateGallery);
 $(document).ready(function () {
     $("#getServices").click(function () {
         $.ajax({
-            url: "services.xml", // Nahraďte skutočnou cestou k súboru XML
+            url: "services.xml", 
             dataType: "xml",
-            success: function (data) {
-                // Spracovanie údajov z XML
+            success: function (data) {                
                 var table = $("<table></table>");
                 table.append("<tr><th>Názov</th><th>Popis</th></tr>");
 
@@ -66,7 +65,7 @@ function validateForm() {
     var sprava = document.getElementById('sprava').value;
     var suhlas = document.getElementById('suhlas').checked;
 
-    var namePattern = /^[a-zA-Z\u00C0-\u017F\s]*$/; // Zahrnutie diakritiky
+    var namePattern = /^[a-zA-Z\u00C0-\u017F\s]*$/; 
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     var valid = true;
